@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("Library")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Моя разработаная с нуля библиотека, созданная для отработки навыков программирования")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Library")]
