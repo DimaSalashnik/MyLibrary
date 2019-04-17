@@ -97,7 +97,7 @@
             this.label2AuthorChoosedBook = new System.Windows.Forms.Label();
             this.label3AuthorChoosedBook = new System.Windows.Forms.Label();
             this.panelShowChoosedBook = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelFormatChoosedBook = new System.Windows.Forms.Label();
             this.labelTypeFormatChoosedBook = new System.Windows.Forms.Label();
             this.buttonHideChoosedBook = new System.Windows.Forms.Button();
             this.buttonDeleteShoosedBook = new System.Windows.Forms.Button();
@@ -302,7 +302,7 @@
             this.panelCreateNewBook.Controls.Add(labelName);
             this.panelCreateNewBook.Controls.Add(this.textBoxNameBook);
             this.panelCreateNewBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.panelCreateNewBook.Location = new System.Drawing.Point(7, 8);
+            this.panelCreateNewBook.Location = new System.Drawing.Point(6, 8);
             this.panelCreateNewBook.Name = "panelCreateNewBook";
             this.panelCreateNewBook.Size = new System.Drawing.Size(480, 383);
             this.panelCreateNewBook.TabIndex = 103;
@@ -691,6 +691,7 @@
             this.pictureBoxBook8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook8.TabIndex = 1065;
             this.pictureBoxBook8.TabStop = false;
+            this.pictureBoxBook8.Tag = "8";
             // 
             // buttonNameBook8
             // 
@@ -708,10 +709,12 @@
             this.buttonNameBook8.Location = new System.Drawing.Point(585, 277);
             this.buttonNameBook8.Name = "buttonNameBook8";
             this.buttonNameBook8.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook8.TabIndex = 1064;
+            this.buttonNameBook8.TabIndex = 8;
             this.buttonNameBook8.TabStop = false;
+            this.buttonNameBook8.Tag = "8";
             this.buttonNameBook8.UseMnemonic = false;
             this.buttonNameBook8.UseVisualStyleBackColor = false;
+            this.buttonNameBook8.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook7
             // 
@@ -723,6 +726,7 @@
             this.pictureBoxBook7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook7.TabIndex = 1063;
             this.pictureBoxBook7.TabStop = false;
+            this.pictureBoxBook7.Tag = "7";
             // 
             // buttonNameBook7
             // 
@@ -740,10 +744,12 @@
             this.buttonNameBook7.Location = new System.Drawing.Point(396, 277);
             this.buttonNameBook7.Name = "buttonNameBook7";
             this.buttonNameBook7.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook7.TabIndex = 1062;
+            this.buttonNameBook7.TabIndex = 7;
             this.buttonNameBook7.TabStop = false;
+            this.buttonNameBook7.Tag = "7";
             this.buttonNameBook7.UseMnemonic = false;
             this.buttonNameBook7.UseVisualStyleBackColor = false;
+            this.buttonNameBook7.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook6
             // 
@@ -755,6 +761,7 @@
             this.pictureBoxBook6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook6.TabIndex = 1061;
             this.pictureBoxBook6.TabStop = false;
+            this.pictureBoxBook6.Tag = "6";
             // 
             // buttonNameBook6
             // 
@@ -772,10 +779,12 @@
             this.buttonNameBook6.Location = new System.Drawing.Point(206, 277);
             this.buttonNameBook6.Name = "buttonNameBook6";
             this.buttonNameBook6.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook6.TabIndex = 1060;
+            this.buttonNameBook6.TabIndex = 6;
             this.buttonNameBook6.TabStop = false;
+            this.buttonNameBook6.Tag = "6";
             this.buttonNameBook6.UseMnemonic = false;
             this.buttonNameBook6.UseVisualStyleBackColor = false;
+            this.buttonNameBook6.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook5
             // 
@@ -787,6 +796,7 @@
             this.pictureBoxBook5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook5.TabIndex = 1059;
             this.pictureBoxBook5.TabStop = false;
+            this.pictureBoxBook5.Tag = "5";
             // 
             // buttonNameBook5
             // 
@@ -804,10 +814,12 @@
             this.buttonNameBook5.Location = new System.Drawing.Point(17, 277);
             this.buttonNameBook5.Name = "buttonNameBook5";
             this.buttonNameBook5.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook5.TabIndex = 1058;
+            this.buttonNameBook5.TabIndex = 5;
             this.buttonNameBook5.TabStop = false;
+            this.buttonNameBook5.Tag = "5";
             this.buttonNameBook5.UseMnemonic = false;
             this.buttonNameBook5.UseVisualStyleBackColor = false;
+            this.buttonNameBook5.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook4
             // 
@@ -819,6 +831,7 @@
             this.pictureBoxBook4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook4.TabIndex = 1057;
             this.pictureBoxBook4.TabStop = false;
+            this.pictureBoxBook4.Tag = "4";
             // 
             // buttonNameBook4
             // 
@@ -836,10 +849,12 @@
             this.buttonNameBook4.Location = new System.Drawing.Point(585, 20);
             this.buttonNameBook4.Name = "buttonNameBook4";
             this.buttonNameBook4.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook4.TabIndex = 1056;
+            this.buttonNameBook4.TabIndex = 4;
             this.buttonNameBook4.TabStop = false;
+            this.buttonNameBook4.Tag = "4";
             this.buttonNameBook4.UseMnemonic = false;
             this.buttonNameBook4.UseVisualStyleBackColor = false;
+            this.buttonNameBook4.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook3
             // 
@@ -851,6 +866,7 @@
             this.pictureBoxBook3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook3.TabIndex = 1055;
             this.pictureBoxBook3.TabStop = false;
+            this.pictureBoxBook3.Tag = "3";
             // 
             // buttonNameBook3
             // 
@@ -868,10 +884,12 @@
             this.buttonNameBook3.Location = new System.Drawing.Point(396, 15);
             this.buttonNameBook3.Name = "buttonNameBook3";
             this.buttonNameBook3.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook3.TabIndex = 1054;
+            this.buttonNameBook3.TabIndex = 3;
             this.buttonNameBook3.TabStop = false;
+            this.buttonNameBook3.Tag = "3";
             this.buttonNameBook3.UseMnemonic = false;
             this.buttonNameBook3.UseVisualStyleBackColor = false;
+            this.buttonNameBook3.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook2
             // 
@@ -883,6 +901,7 @@
             this.pictureBoxBook2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook2.TabIndex = 1053;
             this.pictureBoxBook2.TabStop = false;
+            this.pictureBoxBook2.Tag = "2";
             // 
             // buttonNameBook2
             // 
@@ -900,10 +919,12 @@
             this.buttonNameBook2.Location = new System.Drawing.Point(206, 20);
             this.buttonNameBook2.Name = "buttonNameBook2";
             this.buttonNameBook2.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook2.TabIndex = 1052;
+            this.buttonNameBook2.TabIndex = 2;
             this.buttonNameBook2.TabStop = false;
+            this.buttonNameBook2.Tag = "2";
             this.buttonNameBook2.UseMnemonic = false;
             this.buttonNameBook2.UseVisualStyleBackColor = false;
+            this.buttonNameBook2.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // pictureBoxBook1
             // 
@@ -915,6 +936,7 @@
             this.pictureBoxBook1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBook1.TabIndex = 1051;
             this.pictureBoxBook1.TabStop = false;
+            this.pictureBoxBook1.Tag = "1";
             // 
             // buttonNameBook1
             // 
@@ -932,10 +954,12 @@
             this.buttonNameBook1.Location = new System.Drawing.Point(17, 20);
             this.buttonNameBook1.Name = "buttonNameBook1";
             this.buttonNameBook1.Size = new System.Drawing.Size(160, 35);
-            this.buttonNameBook1.TabIndex = 0;
+            this.buttonNameBook1.TabIndex = 1;
             this.buttonNameBook1.TabStop = false;
+            this.buttonNameBook1.Tag = "1";
             this.buttonNameBook1.UseMnemonic = false;
             this.buttonNameBook1.UseVisualStyleBackColor = false;
+            this.buttonNameBook1.Click += new System.EventHandler(this.buttonsDisplayFullDescriptionChoosedBook);
             // 
             // buttonUpdateSavedBooks
             // 
@@ -1083,7 +1107,7 @@
             // panelShowChoosedBook
             // 
             this.panelShowChoosedBook.Controls.Add(labelMMChoosedBook);
-            this.panelShowChoosedBook.Controls.Add(this.label3);
+            this.panelShowChoosedBook.Controls.Add(this.labelFormatChoosedBook);
             this.panelShowChoosedBook.Controls.Add(this.labelTypeFormatChoosedBook);
             this.panelShowChoosedBook.Controls.Add(this.buttonHideChoosedBook);
             this.panelShowChoosedBook.Controls.Add(this.buttonDeleteShoosedBook);
@@ -1104,14 +1128,14 @@
             this.panelShowChoosedBook.TabIndex = 1063;
             this.panelShowChoosedBook.Visible = false;
             // 
-            // label3
+            // labelFormatChoosedBook
             // 
-            this.label3.Location = new System.Drawing.Point(324, 237);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 22);
-            this.label3.TabIndex = 1051;
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.UseMnemonic = false;
+            this.labelFormatChoosedBook.Location = new System.Drawing.Point(324, 237);
+            this.labelFormatChoosedBook.Name = "labelFormatChoosedBook";
+            this.labelFormatChoosedBook.Size = new System.Drawing.Size(69, 22);
+            this.labelFormatChoosedBook.TabIndex = 1051;
+            this.labelFormatChoosedBook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelFormatChoosedBook.UseMnemonic = false;
             // 
             // labelTypeFormatChoosedBook
             // 
@@ -1364,7 +1388,7 @@
         private System.Windows.Forms.Label labelDescriptionChoosedBook;
         public System.Windows.Forms.Button buttonHideChoosedBook;
         public System.Windows.Forms.Button buttonDeleteShoosedBook;
-        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label labelFormatChoosedBook;
         private System.Windows.Forms.Label labelTypeFormatChoosedBook;
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button buttonCreatNewBook;

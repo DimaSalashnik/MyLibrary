@@ -186,16 +186,36 @@ namespace Library
 
         private void UpdateSavedBooks(){
             for (byte q = 0; q < quantytiCounterBooks; q++){
-                if (book[q] != null)
+                if (book[q].NameBook != null)
                     buttonNameBook[q].Text = book[q].NameBook;
                 if(cover[q] != null)
                         pictureCover[q].Image = cover[q].Image;}}
+
+        //отображение информации о книге при нажатии на неё
+        private void buttonsDisplayFullDescriptionChoosedBook(object sender, EventArgs e)
+        {
+            panelCreateNewBook.Visible = false;
+            panelShowChoosedBook.Visible = true;
+            Button ChoosedBook = (Button)sender;
+            byte chb = (byte)ChoosedBook.TabIndex;
+            labelNameChoosedBook.Text = book[chb].NameBook;
+            pictureBoxCoverChoosedBook.Image = cover[chb].Image;
+            labelPuplisherChoosedBook.Text = book[chb].Publisher;
+            label1AuthorChoosedBook.Text = book[chb].Authtor1;
+            label2AuthorChoosedBook.Text = book[chb].Authtor2;
+            label3AuthorChoosedBook.Text = book[chb].Authtor3;
+            label1AuthorChoosedBook.Text = book[chb].Authtor1;
+            labelFormatChoosedBook.Text = book[chb].Format;
+            labelDateChoosedBook.Text = book[chb].Date;
+            richTextBoxDescriptionChoosedBook.Text = book[chb].Description;
+        }
+
         private void PanelClearSavedBooks()
         {
             for (byte i = 0; i < quantytiCounterBooks; i++)
             {
                 cover[i].Image = null;
-                buttonNameBook[i].Text = null;
+                buttonNameBook[i].Text = "";
             }
         }
     }
