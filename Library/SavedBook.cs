@@ -7,18 +7,18 @@ using System.Windows.Forms;
 
 namespace Library
 {
-    class SavedBook : ISavedBook
+    class SavedBook
     {
         //поля для хранения
-        public string name;
-        public string date;
-        public string pages;
-        public string publisher;
-        public string format;
-        public string description;
-        public string author1;
-        public string author2;
-        public string author3;
+        private string name; 
+        private string date;
+        private string pages;
+        private string publisher;
+        private string format;
+        private string description;
+        private string author1;
+        private string author2;
+        private string author3;
         //инкапсуляция полей
         public string NameBook { get => name; set => name = value; }
         public string Date { get => date; set => date = value; }

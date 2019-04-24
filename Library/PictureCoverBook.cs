@@ -11,11 +11,6 @@ namespace Library
     {
         private Image image;
         public Image Image { get => image; set => image = value; }
-
-        public PictureCoverBook(Image image)
-        {
-            this.Image = image;
-        }
-
+        public PictureCoverBook(Image image) => this.Image = image;
     }
 }

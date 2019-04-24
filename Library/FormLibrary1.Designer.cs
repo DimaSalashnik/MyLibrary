@@ -19,7 +19,7 @@ namespace Library {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class FormLibrary {
@@ -63,9 +63,9 @@ namespace Library {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap buttonUpdateSavedBooks_Image {
+        public static System.Drawing.Bitmap buttonSwithTheme_Image {
             get {
-                object obj = ResourceManager.GetObject("buttonUpdateSavedBooks.Image", resourceCulture);
+                object obj = ResourceManager.GetObject("buttonSwithTheme.Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,6 +113,16 @@ namespace Library {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Boolean, аналогичного False.
         /// </summary>
+        public static bool labelMMChoosedBook_GenerateMember {
+            get {
+                object obj = ResourceManager.GetObject("labelMMChoosedBook.GenerateMember", resourceCulture);
+                return ((bool)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Boolean, аналогичного False.
+        /// </summary>
         public static bool labelName_GenerateMember {
             get {
                 object obj = ResourceManager.GetObject("labelName.GenerateMember", resourceCulture);
@@ -146,16 +156,6 @@ namespace Library {
         public static bool labelPublisher_GenerateMember {
             get {
                 object obj = ResourceManager.GetObject("labelPublisher.GenerateMember", resourceCulture);
-                return ((bool)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Boolean, аналогичного False.
-        /// </summary>
-        public static bool labelWindowsTextICO_GenerateMember {
-            get {
-                object obj = ResourceManager.GetObject("labelWindowsTextICO.GenerateMember", resourceCulture);
                 return ((bool)(obj));
             }
         }
@@ -283,20 +283,10 @@ namespace Library {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap pictureWindowICO_BackgroundImage {
+        public static System.Drawing.Bitmap pictureBoxCoverChoosedBook_ErrorImage {
             get {
-                object obj = ResourceManager.GetObject("pictureWindowICO.BackgroundImage", resourceCulture);
+                object obj = ResourceManager.GetObject("pictureBoxCoverChoosedBook.ErrorImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Boolean, аналогичного False.
-        /// </summary>
-        public static bool pictureWindowICO_GenerateMember {
-            get {
-                object obj = ResourceManager.GetObject("pictureWindowICO.GenerateMember", resourceCulture);
-                return ((bool)(obj));
             }
         }
     }

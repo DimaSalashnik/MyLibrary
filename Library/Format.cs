@@ -9,8 +9,7 @@ namespace Library
     class Format
     {
         //отправка размера формата
-        public string FindFormatMM(string IndexSelected, string type)
-        {
+        public string FindFormatMM(string IndexSelected, string type){
             string format = "";
             if (type == "A"){
                 if (IndexSelected == "3") { format = a3; }

@@ -63,7 +63,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FormLibrary.resx</DependentUpon>
     </Compile>
-    <Compile Include="ISavedBook.cs" />
     <Compile Include="PictureCoverBook.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
